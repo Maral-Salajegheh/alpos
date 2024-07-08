@@ -6,7 +6,7 @@
 ##########################################################
 #  General parameters of this dataset 
 ##########################################################
-AlposName                       "h1DdisComb"  # A unique alpos name 
+AlposName                       "H1incDDIS-319"  # A unique alpos name 
 Description                    	"H1 DDIS NC HERA-II LowE"
 Reference                       "Eur.Phys.J. C71 (2011) 1836"
 arXiv                           1107.3420
@@ -18,7 +18,7 @@ Title                           "Measurement of the Diffractive Longitudinal Str
 ########################################################## 
 #  Theory function settings 
 ##########################################################  
-TheoryFunction                   QcdnumDDISCS
+TheoryFunction                   ApfelDDISCS #ApfelxxDDISCS  #maral
 
 
 ########################################################## 
@@ -41,7 +41,7 @@ IsNC                             true
 
 #$\sigma_r^D$ at $\sqrt{s} = 225\gev$,
 Data {{
-    xp       Q2      beta           mx    Sigma      stat      unc        cor      tot       ele    theta     noi       spa    r_log      asy      mod     betaU    xpom      vm       com      bcc
+    "xp"       "Q2"      "beta"           "mx"    "Sigma"      "stat"      "unc"        "cor"      "tot"       "ele"    "theta"     "noi"       "spa"    "r_log"      "asy"      "mod"     "betaU"    "xpom"      "vm"       "com"      "bcc"
  0.0005    11.5     0.570      2.94541   0.0553       1.3      10.4       6.9       8.7      0.4      2.7      4.0      1.1      0.2      0.2      0.2      0.8      0.0      3.8     -0.1      1.1
  0.0005    11.5     0.699      2.22533   0.0579       1.6      10.1       6.9      12.3      0.6      3.1      3.9      0.7      0.1      0.1      0.1      0.4      0.0      2.8     -0.2      3.2
 #0.0005    11.5     0.755-1.0  1.93178       0.0198       1.2      10.0       8.5      13.2     -0.4      3.4      4.6      0.5      0.0      0.0      0.2      0.2      0.0      0.8     -2.1     0.0

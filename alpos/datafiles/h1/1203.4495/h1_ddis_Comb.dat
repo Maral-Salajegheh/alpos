@@ -18,7 +18,7 @@ Title                           "Inclusive Measurement of Diffractive Deep-Inela
 ########################################################## 
 #  Theory function settings 
 ##########################################################  
-TheoryFunction                   QcdnumDDISCS
+TheoryFunction                  ApfelxxDDISCS  #ApfelDDISCS #ApfelxxDDISCS  #maral
 
 
 ########################################################## 

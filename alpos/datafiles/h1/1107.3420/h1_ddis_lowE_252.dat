@@ -6,7 +6,7 @@
 ##########################################################
 #  General parameters of this dataset 
 ##########################################################
-AlposName                       "h1DdisComb"  # A unique alpos name 
+AlposName                       "H1incDDIS-252"  # A unique alpos name 
 Description                    	"H1 DDIS NC HERA-II LowE"
 Reference                       "Eur.Phys.J. C71 (2011) 1836"
 arXiv                           1107.3420
@@ -18,7 +18,7 @@ Title                           "Measurement of the Diffractive Longitudinal Str
 ########################################################## 
 #  Theory function settings 
 ##########################################################  
-TheoryFunction                   QcdnumDDISCS
+TheoryFunction                   ApfelxxDDISCS #ApfelDDISCS #ApfelxxDDISCS #maral
 
 
 ########################################################## 
@@ -40,7 +40,7 @@ IsNC                             true
 
 #$\sigma_r^D$ at $\sqrt{s} = 225\gev$,
 Data {{
-    xp       Q2      beta            mx    Sigma      stat      unc        cor      tot       ele    theta     noi       spa    r_log      asy      mod     betaU    xpom      vm       com      bcc
+   "xp"       "Q2"      "beta"            "mx"    "Sigma"      "stat"      "unc"        "cor"      "tot"       "ele"    "theta"     "noi"       "spa"    "r_log"      "asy"      "mod"     "betaU"    "xpom"      "vm"       "com"      "bcc"
  0.0005     4.0     0.186       4.18394   0.0192      20.2      17.1      16.4      29.4      1.5      0.5      6.7      4.5      3.3     -0.7      1.2      2.9      0.6      6.1      0.0     14.0
  0.0005     4.0     0.227       3.69068   0.0269      11.6      13.3      11.3      16.7      2.1     -1.0      5.0      3.8      0.6     -0.1      0.2      1.7      0.1      5.8      0.0      6.8
  0.0005    11.5     0.570       2.94541   0.0456      11.6      12.4      13.7      16.2      1.4      1.8      8.3      1.8      0.7     -0.5      0.2      1.0      0.2      6.8     -0.2      1.1

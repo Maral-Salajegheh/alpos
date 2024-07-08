@@ -70,8 +70,8 @@ MyFit {{{
 # --------------------------------------------------------------#
 
 Stat {{{
-   Chisq		        LogNormal #ChisqCovariance # LogNormal   # current choices: LogNormal, ChisqCovariance, LogNormalNuisance
-   ChisqStatUncorr	        LogNormalStatUncorr #CovStatUncorr #LogNormalStatUncorr   # current choices: LogNormalStatUncorr, ChisqCovStatUncorr
+   Chisq		        ChisqCovariance #ChisqCovariance # LogNormal   # current choices: LogNormal, ChisqCovariance, LogNormalNuisance  #maral
+   ChisqStatUncorr	         ChisqCovStatUncorr #LogNormalStatUncorr #CovStatUncorr #LogNormalStatUncorr   # current choices: LogNormalStatUncorr, ChisqCovStatUncorr
    DoChisq                      true
    DoPValue                     true
 }}}

@@ -6,7 +6,7 @@
 ##########################################################
 #  General parameters of this dataset 
 ##########################################################
-AlposName                       "h1DdisComb"  # A unique alpos name 
+AlposName                       "H1incDDIS-225"  # A unique alpos name 
 Description                    	"H1 DDIS NC HERA-II LowE"
 Reference                       "Eur.Phys.J. C71 (2011) 1836"
 arXiv                           1107.3420
@@ -18,7 +18,7 @@ Title                           "Measurement of the Diffractive Longitudinal Str
 ########################################################## 
 #  Theory function settings 
 ##########################################################  
-TheoryFunction                   QcdnumDDISCS
+TheoryFunction                   ApfelxxDDISCS #ApfelDDISCS #ApfelxxDDISCS  #maral
 
 
 ########################################################## 
@@ -41,7 +41,7 @@ IsNC                             true
 
 #$\sigma_r^D$ at $\sqrt{s} = 225\gev$,
 Data {{
-    xp       Q2      beta          mx     Sigma      stat      unc        cor      tot       ele    theta     noi       spa    r_log      asy      mod    betaU     xpom      vm       com      bcc
+   "xp"     "Q2"      "beta"        "mx"     "Sigma"      "stat"      "unc"        "cor"      "tot"       "ele"    "theta"     "noi"       "spa"    "r_log"      "asy"      "mod"    "betaU"     "xpom"      "vm"       "com"      "bcc"
 0.0005      4.0     0.227     3.69068    0.0175      14.2      17.4      15.2      20.2      2.4     -0.7      6.3      3.9      3.7     -0.9      0.3      2.5      0.8      8.2     -0.4      7.1
 0.0005      4.0     0.323     2.8955     0.0302      10.4      11.6       9.5      18.3      2.0      1.4      6.6      3.1     -0.0      0.0      0.7      0.9      0.0      4.7      0.0     -2.0
 0.0005     11.5     0.570     2.94541    0.0448      13.2      11.0       8.7      18.4      1.8      0.2      7.0      1.3      0.3     -2.4     -2.6      0.4      1.3      0.8     -8.2      1.0

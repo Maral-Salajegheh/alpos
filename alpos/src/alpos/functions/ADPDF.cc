@@ -134,7 +134,7 @@ std::vector<double> ADPDF::GetQuick(const vector<double>& xpom_zpom_muf) {
    double xpom = xpom_zpom_muf[0];
    static const double& xxpom = PAR(xpom);
    if ( xpom == 0 ) xpom = xxpom;//PAR(xpom);
-   if ( xpom < 1.e-5 || xpom > 1 ) {
+   if ( xpom < 1.e-6 || xpom > 1 ) {
       error["Quick"]<<"Unreasonale xpom value:" << xpom<<endl; 
       cout<<"xpom in:  "<<xpom_zpom_muf[0]<<endl;
       cout<<"xpom par: "<<PAR(xpom)<<endl;

@@ -1,0 +1,76 @@
+ # INFO.    [Alpos::InitSettings] Unrecognized value for 'ErrorSymmetrization' of 'blabla'. Using default: 'SignImprovedQuadratic'.
+ # INFO.    [Alpos::InitSettings] No output file will be written.
+ # INFO.    [Alpos::InitSettings] ALPOS_DIR will be: /eos/user/h/hakhanpo/hadi/alpos/alpos/
+ # INFO.    [Alpos::ReadSteering] Reading file 'datafiles/h1/1406.4709/H1-HERAII-HighQ2-NormInclJets.dat'.
+
+          ,
+      \   |    /                                                                                      
+ `.    \  '   /  .'         _______ ___     _______ _______ _______             , __;_,__(            
+   `. .-*""*-. .'          /   _   Y   )   /   _   Y   _   Y   _   \         _/./  .    /__.-         
+*-._ /        \ _.-*"      |   l   |   |   |   l   |   |   |   l___l        /'   .  <  _ (_           
+     (        )            |   _   |   |___|   ____|   |   |____   |        L.__/__) _./              
+.-*" \        / "*-._      |   |   |   l   |   |   |   l   |   l   |        (-(- D                    
+   .' `-.__.-' `.          l___|   |_______l___|   l_______l_______/        /    |  ..-.              
+ .'   /   .  \   `.            `---'                                         \_.''       \            
+     /    |   \            An object-oriented data to theory               __|            \           
+          '                comparison and fitting framework              ,'   \  -._.\     \          
+                                                                        /      \      \     |         
+                                                                       /    )   \     .`.   )         
+                                                               .--.   /    /       --'   |  `         
+                                                               Oc_ `-'  _.' \.   /       |  |         
+                                                                  `l _)/     `-..       .|  :         
+                                                                   `._j          |   `./ L  J>        
+   @                                               ,sdPBbs.                      L   _/  `--'         
+    @      .-'^--.                               ,d$$$$$$$$b.                   (    (                
+          (     , )               ,/'b.        ,d$P'`Y'`Y'`?$b,       .         \   J               ,d
+   ___I_ (  ,      )            _/    7h,    ,/    / \      |  \,   ,d*\         )  \    ,/'\.    ,d  
+  /\-_--\ ( \'./  .'   .d^*b, .'    , _ #b--'     ^  |      \    |./  ' b,_     / ` )) _/   .h,_ /   \
+ /  \_-__\ '-| |-'    /  , _\/     _/'.   /'  ,      /   \   ^    `-._    \  ,-'/,  /   , _/ - '/' ^  
+ |[]| [] |   | |  __/'  /   ,, __/'    ,-'   ,   /    |    |     \     `--/' C/-..,'   _/'.  ,-'   '  
+-------------------------------------------------------------------------------------------------------
+
+
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'QcdnumInit', with name: QcdnumInit
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'QcdnumInit', as name 'QcdnumInit'.
+ 
+                  ///                                  .().                 
+                 (..)                                  (--)                 
+  +----------ooO--()--Ooo--------------------------ooO------Ooo---------+   
+  |                                                                     |   
+  |    #####      ######    ######     ##    ##   ##    ##   ##     ##  |   
+  |   ##   ##    ##    ##   ##   ##    ###   ##   ##    ##   ###   ###  |   
+  |  ##     ##   ##    ##   ##    ##   ####  ##   ##    ##   #### ####  |   
+  |  ##     ##   ##         ##    ##   ## ## ##   ##    ##   ## ### ##  |   
+  |  ##     ##   ##         ##    ##   ##  ####   ##    ##   ##  #  ##  |   
+  |   ##   ##    ##    ##   ##   ##    ##   ###   ##    ##   ##     ##  |   
+  |    #####      ######    ######     ##    ##    ######    ##     ##  |   
+  |        ##                                                           |   
+  |                                                                     |   
+  |    Version 18-00-00    08-03-22         Author m.botje@nikhef.nl    |   
+  |                                                                     |   
+  +---------------------------------------------------------------------+   
+
+
+  +---------------------------------------------------------------------+   
+  |                                                                     |   
+  |    If you use QCDNUM, please refer to:                              |   
+  |                                                                     |   
+  |    M. Botje, Comput. Phys. Commun. 182(2011)490, arXiV:1005.1481    |   
+  |                                                                     |   
+  +---------------------------------------------------------------------+   
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'QcdnumInit', as name 'QcdnumInit' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'EPRC', with name: EPRC
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'EPRC', as name 'EPRC'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'EPRC', as name 'EPRC' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'LHAPDF6', with name: LHAPDF
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'LHAPDF6', as name 'LHAPDF'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'LHAPDF6', as name 'LHAPDF' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'QcdnumAlphas', with name: AsQCDNUM
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'QcdnumAlphas', as name 'AsQCDNUM'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'QcdnumAlphas', as name 'AsQCDNUM' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'fastNLOnormDIS', with name: H1HeraII-NormInclJets
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'fastNLOnormDIS', as name 'H1HeraII-NormInclJets'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'fastNLOnormDIS', as name 'H1HeraII-NormInclJets' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'Data', with name: H1HeraII-NormInclJets
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1HeraII-NormInclJets'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1HeraII-NormInclJets' DONE.

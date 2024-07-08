@@ -1,0 +1,217 @@
+ # WARNING! [read_steer] Label 'PDFQ0_diff.sTF1' already found. Keeping previous value of '[0]*pow(x,[1]) * TMath::Power(1-x,[2]) * exp(-0.01/(1-x))* ( 1 + [3]*x + [4]*x*x) ' and IGNORE this one '[0]*pow(x,[1]) * TMath::Power(1-x,[2]) * exp(-0.01/(1-x))* ( 1 + TMath::sqrt([3])*x ) '
+ # INFO.    [Alpos::InitSettings] Output directory set to: Basedongkg/
+ # INFO.    [Alpos::InitSettings] Output root-file set to: Basedongkg/out.root
+ # INFO.    [Alpos::InitSettings] Input steering file copied to: Basedongkg/
+ # INFO.    [Alpos::InitSettings] Ignore theory uncertainties (flag found in steering): false
+ # INFO.    [Alpos::InitSettings] ALPOS_DIR will be: /eos/user/h/hakhanpo/hadi/alpos/alpos/
+ # INFO.    [Alpos::ReadSteering] Reading file 'datafiles/h1/1412.0928/H1-HERAII_LRG_DiffDijets.dat'.
+ # INFO.    [Alpos::ReadSteering] Reading file 'datafiles/h1/1203.4495/h1_ddis_Comb.dat'.
+ # INFO.    [Alpos::ReadSteering] Reading file 'datafiles/h1/1107.3420/h1_ddis_lowE_225.dat'.
+ # INFO.    [Alpos::ReadSteering] Reading file 'datafiles/h1/1107.3420/h1_ddis_lowE_252.dat'.
+ # INFO.    [Alpos::ReadSteering] Reading file 'datafiles/h1/1107.3420/h1_ddis_lowE_319.dat'.
+ # INFO.    [Alpos::ReadSteering] Reading file 'datafiles/h1zeus/1207.4864/H1-ZEUS-Combined-2012.dat'.
+
+          ,
+      \   |    /                                                                                      
+ `.    \  '   /  .'         _______ ___     _______ _______ _______             , __;_,__(            
+   `. .-*""*-. .'          /   _   Y   )   /   _   Y   _   Y   _   \         _/./  .    /__.-         
+*-._ /        \ _.-*"      |   l   |   |   |   l   |   |   |   l___l        /'   .  <  _ (_           
+     (        )            |   _   |   |___|   ____|   |   |____   |        L.__/__) _./              
+.-*" \        / "*-._      |   |   |   l   |   |   |   l   |   l   |        (-(- D                    
+   .' `-.__.-' `.          l___|   |_______l___|   l_______l_______/        /    |  ..-.              
+ .'   /   .  \   `.            `---'                                         \_.''       \            
+     /    |   \            An object-oriented data to theory               __|            \           
+          '                comparison and fitting framework              ,'   \  -._.\     \          
+                                                                        /      \      \     |         
+                                                                       /    )   \     .`.   )         
+                                                               .--.   /    /       --'   |  `         
+                                                               Oc_ `-'  _.' \.   /       |  |         
+                                                                  `l _)/     `-..       .|  :         
+                                                                   `._j          |   `./ L  J>        
+   @                                               ,sdPBbs.                      L   _/  `--'         
+    @      .-'^--.                               ,d$$$$$$$$b.                   (    (                
+          (     , )               ,/'b.        ,d$P'`Y'`Y'`?$b,       .         \   J               ,d
+   ___I_ (  ,      )            _/    7h,    ,/    / \      |  \,   ,d*\         )  \    ,/'\.    ,d  
+  /\-_--\ ( \'./  .'   .d^*b, .'    , _ #b--'     ^  |      \    |./  ' b,_     / ` )) _/   .h,_ /   \
+ /  \_-__\ '-| |-'    /  , _\/     _/'.   /'  ,      /   \   ^    `-._    \  ,-'/,  /   , _/ - '/' ^  
+ |[]| [] |   | |  __/'  /   ,, __/'    ,-'   ,   /    |    |     \     `--/' C/-..,'   _/'.  ,-'   '  
+-------------------------------------------------------------------------------------------------------
+
+
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'PDFQ0_diff', with name: PDFQ0_diff
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'PDFQ0_diff', as name 'PDFQ0_diff'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'PDFQ0_diff', as name 'PDFQ0_diff' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelxxAlphas', with name: ApfelxxAlphas
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelxxAlphas', as name 'ApfelxxAlphas'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelxxAlphas', as name 'ApfelxxAlphas' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelPDF', with name: ApfelPDF
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelPDF', as name 'ApfelPDF'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelPDF', as name 'ApfelPDF' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelInit', with name: ApfelInit
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelInit', as name 'ApfelInit'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelInit', as name 'ApfelInit' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelAs', with name: ApfelAs
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelAs', as name 'ApfelAs'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelAs', as name 'ApfelAs' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelxxPDF', with name: ApfelxxPDF
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelxxPDF', as name 'ApfelxxPDF'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelxxPDF', as name 'ApfelxxPDF' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'STROWP1', with name: STROWP1
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'STROWP1', as name 'STROWP1'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'STROWP1', as name 'STROWP1' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'LHAPDF6', with name: GRVPION
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'LHAPDF6', as name 'GRVPION'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'LHAPDF6', as name 'GRVPION' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'DPDF', with name: DPDF
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'DPDF', as name 'DPDF'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'DPDF', as name 'DPDF' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'H1DPDF2006', with name: H1DPDF2006
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'H1DPDF2006', as name 'H1DPDF2006'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'H1DPDF2006', as name 'H1DPDF2006' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'H1DPDF2006', with name: h12006_IP
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'H1DPDF2006', as name 'h12006_IP'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'H1DPDF2006', as name 'h12006_IP' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'fastNLODiffDIS', with name: H1-LRG-DiffDijets
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'fastNLODiffDIS', as name 'H1-LRG-DiffDijets'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'fastNLODiffDIS', as name 'H1-LRG-DiffDijets' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelDDISCS', with name: H1incDDIS
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelDDISCS', with name: H1incDDIS-225
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS-225'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS-225' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelDDISCS', with name: H1incDDIS-252
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS-252'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS-252' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelDDISCS', with name: H1incDDIS-319
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS-319'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1incDDIS-319' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'ApfelDDISCS', with name: H1-ZEUS-Comb-2012
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1-ZEUS-Comb-2012'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'ApfelDDISCS', as name 'H1-ZEUS-Comb-2012' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'Data', with name: H1-LRG-DiffDijets
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1-LRG-DiffDijets'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1-LRG-DiffDijets' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'Data', with name: H1incDDIS
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'Data', with name: H1incDDIS-225
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS-225'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS-225' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'Data', with name: H1incDDIS-252
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS-252'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS-252' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'Data', with name: H1incDDIS-319
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS-319'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1incDDIS-319' DONE.
+ # INFO.    [TheoryHandler::InitTheory] Init a function 'Data', with name: H1-ZEUS-Comb-2012
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1-ZEUS-Comb-2012'.
+ # INFO.    [AFactory::FunctionFactory] Initializing function of type 'Data', as name 'H1-ZEUS-Comb-2012' DONE.
+Initializing DglapObjects for space-like QCD unpolarised evolution... Time elapsed: 0.318546 seconds
+ # INFO.    [AfastNLODiffDIS::Init] Reading table file: theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_4_6.NumEvtBinProc.RMS8.pre10.tab
+
+ ##################################################################################
+ #
+ # [0;31mfast[0;34mNLO[0m_toolkit
+ # Version 2.3.1_
+ #
+ # C++ program and toolkit to read and create fastNLO v2 tables and
+ # derive QCD cross sections using PDFs, e.g. from LHAPDF
+ #
+ #---------------------------------------------------------------------------------
+ #
+ # Copyright © 2005-2022 [0;31mfast[0;34mNLO[0m Collaboration
+ # D. Britzger, T. Kluge, K. Rabbertz, F. Stober, G. Sieber, M. Wobisch
+ #
+ # This program is free software: you can redistribute it and/or modify
+ # it under the terms of the GNU General Public License as published by
+ # the Free Software Foundation, either version 3 of the License, or
+ # (at your option) any later version.
+ #
+ # This program is distributed in the hope that it will be useful,
+ # but WITHOUT ANY WARRANTY; without even the implied warranty of
+ # MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE. See the
+ # GNU General Public License for more details.
+ #
+ # You should have received a copy of the GNU General Public License
+ # along with this program. If not, see <http://www.gnu.org/licenses/>.
+ #
+ #---------------------------------------------------------------------------------
+ #
+ # The projects web page can be found at:
+ #   http://projects.hepforge.org/fastnlo
+ #
+ # If you use this code, please cite:
+ #   T. Kluge, K. Rabbertz, M. Wobisch, hep-ph/0609285
+ #   D. Britzger, T. Kluge, K. Rabbertz, F. Stober, M. Wobisch, arXiv:1109.1310
+ #
+ ##################################################################################
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_4_6.NumEvtBinProc.RMS8.pre10.tab successfully.
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)/2
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * scale1^2
+Radek H1-LRG-DiffDijets
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [AfastNLODiffDIS::Init] Reading table file: theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_6_10.NumEvtBinProc.RMS8.pre10.tab
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_6_10.NumEvtBinProc.RMS8.pre10.tab successfully.
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)/2
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * scale1^2
+Radek H1-LRG-DiffDijets
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [AfastNLODiffDIS::Init] Reading table file: theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_10_18.NumEvtBinProc.RMS8.pre10.tab
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_10_18.NumEvtBinProc.RMS8.pre10.tab successfully.
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)/2
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * scale1^2
+Radek H1-LRG-DiffDijets
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [AfastNLODiffDIS::Init] Reading table file: theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_18_34.NumEvtBinProc.RMS8.pre10.tab
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_18_34.NumEvtBinProc.RMS8.pre10.tab successfully.
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)/2
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * scale1^2
+Radek H1-LRG-DiffDijets
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [AfastNLODiffDIS::Init] Reading table file: theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_34_100.NumEvtBinProc.RMS8.pre10.tab
+ # INFO.    [fastNLOTable::OpenFileRead] Opened file theoryfiles/NNLOJET/H1-LQall-8.diff_LRG_ptj1_q2_34_100.NumEvtBinProc.RMS8.pre10.tab successfully.
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)/2
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * scale1^2
+Radek H1-LRG-DiffDijets
+ # INFO.    [fastNLOReader::PrintScaleSettings] Renormalization scale chosen to be mu_r^2 = 1^2 * (scale1^2 + scale2^2)
+ # INFO.    [fastNLOReader::PrintScaleSettings] Factorization scale chosen to be   mu_f^2 = 1^2 * (scale1^2 + scale2^2)
+ # WARNING! [read_steer] Label 'Stat_Matrix' was not found in list or has no values.
+ # INFO.    [AData::ReadErrors] mat: ncol=15	nrow=15
+ # WARNING! [read_steer] Label 'Cuts' was not found in list or has no values.
+ # WARNING! [read_steer] Column 'y' was not found in table 'Data'.
+ # WARNING! [read_steer] Label 'Cuts' was not found in list or has no values.
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: Q2	>=	9
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: beta	<=	0.81
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: mx	>=	2
+ # INFO.    [AData::InitSubsets] Set subset including cuts with 96 valid points.
+ # WARNING! [read_steer] Column 'y' was not found in table 'Data'.
+ # WARNING! [read_steer] Column 'y' was not found in table 'Data'.
+ # WARNING! [read_steer] Label 'Cuts' was not found in list or has no values.
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: Q2	>=	9
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: beta	<=	0.81
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: mx	>=	2
+ # INFO.    [AData::InitSubsets] Set subset including cuts with 13 valid points.
+ # WARNING! [read_steer] Column 'y' was not found in table 'Data'.
+ # WARNING! [read_steer] Label 'Cuts' was not found in list or has no values.
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: Q2	>=	9
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: beta	<=	0.81
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: mx	>=	2
+ # INFO.    [AData::InitSubsets] Set subset including cuts with 12 valid points.
+ # WARNING! [read_steer] Column 'y' was not found in table 'Data'.
+ # WARNING! [read_steer] Label 'Cuts' was not found in list or has no values.
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: Q2	>=	9
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: beta	<=	0.81
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: mx	>=	2
+ # INFO.    [AData::InitSubsets] Set subset including cuts with 12 valid points.
+ # WARNING! [read_steer] Label 'Cuts' was not found in list or has no values.
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: Q2	>=	9
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: beta	<=	0.81
+ # INFO.    [AData::InitSubsetWithCuts] Found cut with properties: mx	>=	2
+ # INFO.    [AData::InitSubsets] Set subset including cuts with 165 valid points.
+TMath::sqrt is unknown.
+TMath::Power is unknown.
